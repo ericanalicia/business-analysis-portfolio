@@ -1,0 +1,14 @@
+# Power BI files (large binary - don't commit)
+*.pbix
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
+
+# Local DB files (keep SQL scripts, not the generated DB)
+*.db
+*.sqlite

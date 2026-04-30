@@ -1,0 +1,91 @@
+transaction_id,sale_date,store_location,channel,product_id,product_name,category,quantity,unit_price,total_amount,customer_id
+1001,2024-01-05,Sydney,In-Store,P001,Floral Wrap Dress,Dresses,1,89.99,89.99,C001
+1002,2024-01-06,Melbourne,In-Store,P002,White Linen Shirt,Tops,2,49.99,99.98,C002
+1003,2024-01-07,Online,Online,P003,High-Waist Jeans,Bottoms,1,79.99,79.99,C003
+1004,2024-01-08,Brisbane,In-Store,P004,Leather Tote Bag,Accessories,1,129.99,129.99,C004
+1005,2024-01-09,Perth,In-Store,P005,Block Heel Sandals,Footwear,1,99.99,99.99,C005
+1006,2024-01-10,Sydney,In-Store,P001,Floral Wrap Dress,Dresses,2,89.99,179.98,C006
+1007,2024-01-11,Online,Online,P006,Striped T-Shirt,Tops,3,29.99,89.97,C007
+1008,2024-01-12,Melbourne,In-Store,P007,Wide Leg Trousers,Bottoms,1,69.99,69.99,C008
+1009,2024-01-13,Brisbane,In-Store,P008,Gold Hoop Earrings,Accessories,2,24.99,49.98,C009
+1010,2024-01-14,Perth,In-Store,P009,Slip-On Sneakers,Footwear,1,79.99,79.99,C010
+1011,2024-01-20,Sydney,In-Store,P002,White Linen Shirt,Tops,1,49.99,49.99,C011
+1012,2024-01-22,Online,Online,P003,High-Waist Jeans,Bottoms,2,79.99,159.98,C012
+1013,2024-01-25,Melbourne,In-Store,P001,Floral Wrap Dress,Dresses,1,89.99,89.99,C013
+1014,2024-01-28,Brisbane,In-Store,P010,Chunky Knit Cardigan,Tops,2,59.99,119.98,C014
+1015,2024-01-30,Perth,In-Store,P004,Leather Tote Bag,Accessories,1,129.99,129.99,C015
+1016,2024-02-02,Sydney,In-Store,P005,Block Heel Sandals,Footwear,2,99.99,199.98,C016
+1017,2024-02-04,Online,Online,P007,Wide Leg Trousers,Bottoms,1,69.99,69.99,C017
+1018,2024-02-06,Melbourne,In-Store,P010,Chunky Knit Cardigan,Tops,3,59.99,179.97,C018
+1019,2024-02-08,Brisbane,In-Store,P001,Floral Wrap Dress,Dresses,1,89.99,89.99,C019
+1020,2024-02-10,Perth,In-Store,P006,Striped T-Shirt,Tops,2,29.99,59.98,C020
+1021,2024-02-12,Sydney,In-Store,P008,Gold Hoop Earrings,Accessories,3,24.99,74.97,C021
+1022,2024-02-14,Online,Online,P001,Floral Wrap Dress,Dresses,4,89.99,359.96,C022
+1023,2024-02-16,Melbourne,In-Store,P009,Slip-On Sneakers,Footwear,2,79.99,159.98,C023
+1024,2024-02-18,Brisbane,In-Store,P003,High-Waist Jeans,Bottoms,1,79.99,79.99,C024
+1025,2024-02-20,Perth,In-Store,P010,Chunky Knit Cardigan,Tops,1,59.99,59.99,C025
+1026,2024-02-22,Sydney,In-Store,P002,White Linen Shirt,Tops,3,49.99,149.97,C026
+1027,2024-02-24,Online,Online,P004,Leather Tote Bag,Accessories,2,129.99,259.98,C027
+1028,2024-02-26,Melbourne,In-Store,P007,Wide Leg Trousers,Bottoms,2,69.99,139.98,C028
+1029,2024-02-28,Brisbane,In-Store,P005,Block Heel Sandals,Footwear,1,99.99,99.99,C029
+1030,2024-03-01,Perth,In-Store,P001,Floral Wrap Dress,Dresses,2,89.99,179.98,C030
+1031,2024-03-03,Sydney,In-Store,P009,Slip-On Sneakers,Footwear,1,79.99,79.99,C031
+1032,2024-03-05,Online,Online,P006,Striped T-Shirt,Tops,4,29.99,119.96,C032
+1033,2024-03-07,Melbourne,In-Store,P010,Chunky Knit Cardigan,Tops,2,59.99,119.98,C033
+1034,2024-03-09,Brisbane,In-Store,P008,Gold Hoop Earrings,Accessories,4,24.99,99.96,C034
+1035,2024-03-11,Perth,In-Store,P003,High-Waist Jeans,Bottoms,3,79.99,239.97,C035
+1036,2024-03-13,Sydney,In-Store,P004,Leather Tote Bag,Accessories,1,129.99,129.99,C036
+1037,2024-03-15,Online,Online,P001,Floral Wrap Dress,Dresses,3,89.99,269.97,C037
+1038,2024-03-17,Melbourne,In-Store,P002,White Linen Shirt,Tops,2,49.99,99.98,C038
+1039,2024-03-19,Brisbane,In-Store,P007,Wide Leg Trousers,Bottoms,1,69.99,69.99,C039
+1040,2024-03-21,Perth,In-Store,P005,Block Heel Sandals,Footwear,2,99.99,199.98,C040
+1041,2024-03-23,Sydney,In-Store,P010,Chunky Knit Cardigan,Tops,3,59.99,179.97,C041
+1042,2024-03-25,Online,Online,P003,High-Waist Jeans,Bottoms,2,79.99,159.98,C042
+1043,2024-03-27,Melbourne,In-Store,P006,Striped T-Shirt,Tops,3,29.99,89.97,C043
+1044,2024-03-29,Brisbane,In-Store,P001,Floral Wrap Dress,Dresses,1,89.99,89.99,C044
+1045,2024-04-01,Perth,In-Store,P009,Slip-On Sneakers,Footwear,2,79.99,159.98,C045
+1046,2024-04-03,Sydney,In-Store,P004,Leather Tote Bag,Accessories,2,129.99,259.98,C046
+1047,2024-04-05,Online,Online,P007,Wide Leg Trousers,Bottoms,3,69.99,209.97,C047
+1048,2024-04-07,Melbourne,In-Store,P010,Chunky Knit Cardigan,Tops,1,59.99,59.99,C048
+1049,2024-04-09,Brisbane,In-Store,P002,White Linen Shirt,Tops,2,49.99,99.98,C049
+1050,2024-04-11,Perth,In-Store,P001,Floral Wrap Dress,Dresses,3,89.99,269.97,C050
+1051,2024-04-13,Sydney,In-Store,P008,Gold Hoop Earrings,Accessories,5,24.99,124.95,C051
+1052,2024-04-15,Online,Online,P003,High-Waist Jeans,Bottoms,1,79.99,79.99,C052
+1053,2024-04-17,Melbourne,In-Store,P005,Block Heel Sandals,Footwear,2,99.99,199.98,C053
+1054,2024-04-19,Brisbane,In-Store,P006,Striped T-Shirt,Tops,4,29.99,119.96,C054
+1055,2024-04-21,Perth,In-Store,P004,Leather Tote Bag,Accessories,1,129.99,129.99,C055
+1056,2024-04-23,Sydney,In-Store,P001,Floral Wrap Dress,Dresses,2,89.99,179.98,C056
+1057,2024-04-25,Online,Online,P002,White Linen Shirt,Tops,3,49.99,149.97,C057
+1058,2024-04-27,Melbourne,In-Store,P009,Slip-On Sneakers,Footwear,1,79.99,79.99,C058
+1059,2024-04-29,Brisbane,In-Store,P010,Chunky Knit Cardigan,Tops,2,59.99,119.98,C059
+1060,2024-05-01,Perth,In-Store,P007,Wide Leg Trousers,Bottoms,2,69.99,139.98,C060
+1061,2024-05-03,Sydney,In-Store,P003,High-Waist Jeans,Bottoms,3,79.99,239.97,C061
+1062,2024-05-05,Online,Online,P001,Floral Wrap Dress,Dresses,5,89.99,449.95,C062
+1063,2024-05-07,Melbourne,In-Store,P004,Leather Tote Bag,Accessories,2,129.99,259.98,C063
+1064,2024-05-09,Brisbane,In-Store,P006,Striped T-Shirt,Tops,3,29.99,89.97,C064
+1065,2024-05-11,Perth,In-Store,P005,Block Heel Sandals,Footwear,3,99.99,299.97,C065
+1066,2024-05-13,Sydney,In-Store,P008,Gold Hoop Earrings,Accessories,2,24.99,49.98,C066
+1067,2024-05-15,Online,Online,P002,White Linen Shirt,Tops,4,49.99,199.96,C067
+1068,2024-05-17,Melbourne,In-Store,P007,Wide Leg Trousers,Bottoms,2,69.99,139.98,C068
+1069,2024-05-19,Brisbane,In-Store,P001,Floral Wrap Dress,Dresses,1,89.99,89.99,C069
+1070,2024-05-21,Perth,In-Store,P009,Slip-On Sneakers,Footwear,2,79.99,159.98,C070
+1071,2024-05-23,Sydney,In-Store,P010,Chunky Knit Cardigan,Tops,1,59.99,59.99,C071
+1072,2024-05-25,Online,Online,P003,High-Waist Jeans,Bottoms,2,79.99,159.98,C072
+1073,2024-05-27,Melbourne,In-Store,P001,Floral Wrap Dress,Dresses,3,89.99,269.97,C073
+1074,2024-05-29,Brisbane,In-Store,P004,Leather Tote Bag,Accessories,1,129.99,129.99,C074
+1075,2024-05-31,Perth,In-Store,P006,Striped T-Shirt,Tops,2,29.99,59.98,C075
+1076,2024-06-02,Sydney,In-Store,P002,White Linen Shirt,Tops,2,49.99,99.98,C076
+1077,2024-06-04,Online,Online,P005,Block Heel Sandals,Footwear,3,99.99,299.97,C077
+1078,2024-06-06,Melbourne,In-Store,P008,Gold Hoop Earrings,Accessories,4,24.99,99.96,C078
+1079,2024-06-08,Brisbane,In-Store,P001,Floral Wrap Dress,Dresses,2,89.99,179.98,C079
+1080,2024-06-10,Perth,In-Store,P007,Wide Leg Trousers,Bottoms,1,69.99,69.99,C080
+1081,2024-06-12,Sydney,In-Store,P009,Slip-On Sneakers,Footwear,3,79.99,239.97,C081
+1082,2024-06-14,Online,Online,P010,Chunky Knit Cardigan,Tops,2,59.99,119.98,C082
+1083,2024-06-16,Melbourne,In-Store,P003,High-Waist Jeans,Bottoms,2,79.99,159.98,C083
+1084,2024-06-18,Brisbane,In-Store,P006,Striped T-Shirt,Tops,3,29.99,89.97,C084
+1085,2024-06-20,Perth,In-Store,P004,Leather Tote Bag,Accessories,2,129.99,259.98,C085
+1086,2024-06-22,Sydney,In-Store,P001,Floral Wrap Dress,Dresses,4,89.99,359.96,C086
+1087,2024-06-24,Online,Online,P002,White Linen Shirt,Tops,3,49.99,149.97,C087
+1088,2024-06-26,Melbourne,In-Store,P005,Block Heel Sandals,Footwear,1,99.99,99.99,C088
+1089,2024-06-28,Brisbane,In-Store,P009,Slip-On Sneakers,Footwear,2,79.99,159.98,C089
+1090,2024-06-30,Perth,In-Store,P001,Floral Wrap Dress,Dresses,3,89.99,269.97,C090
