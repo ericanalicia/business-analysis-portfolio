@@ -19,8 +19,6 @@ You are a Junior Business Analyst hired by *TrendHive*, a fictional mid-size Aus
 
 ---
 
----
-
 ## 📈 Results & Key Findings
 
 ### 1. Which product category generates the most revenue?
