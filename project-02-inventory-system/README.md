@@ -55,6 +55,33 @@ ORDER BY cs.stock_level DESC;
 
 ---
 
+### 2. Record every stock movement (received vs. sold)
+
+```sql
+SELECT p.product_name, sm.movement_type, sm.quantity, sm.movement_date
+FROM stock_movements sm
+JOIN products p ON sm.product_id = p.product_id
+ORDER BY sm.movement_date DESC
+LIMIT 10;
+```
+
+| product_name | movement_type | quantity | movement_date |
+|---|---|---|---|
+| Chunky Knit Cardigan | sold | 3 | 2024-06-28 |
+| Striped T-Shirt | sold | 5 | 2024-06-27 |
+| Wide Leg Trousers | sold | 4 | 2024-06-27 |
+| Leather Tote Bag | sold | 2 | 2024-06-26 |
+| Gold Hoop Earrings | sold | 7 | 2024-06-26 |
+| Floral Wrap Dress | sold | 5 | 2024-06-23 |
+| Wide Leg Trousers | sold | 5 | 2024-06-19 |
+| Wide Leg Trousers | sold | 6 | 2024-06-18 |
+| Floral Wrap Dress | sold | 5 | 2024-06-17 |
+| Wide Leg Trousers | sold | 3 | 2024-06-13 |
+
+**Insight:** Every stock movement is individually logged with product, type, quantity, and date — giving full traceability of inventory changes over time, rather than just a single "current stock" snapshot with no history (the exact problem the operations manager originally complained about).
+
+---
+
 ### 3. Alert when stock falls below the reorder level
 
 ```sql
@@ -96,6 +123,12 @@ ORDER BY cs.stock_level ASC;
 
 ---
 
+### 4. Show management a live inventory dashboard
+
+🔧 **Status: Planned, not yet built.** This goal requires a Power BI dashboard connected to the stock summary query from Goal 1 (live current-stock view) and the reorder alert query from Goal 3. Next step: connect this dataset to Power BI and build visual KPI cards for stock levels and reorder alerts.
+
+---
+
 ## 📂 Folder Structure
 
 ```
@@ -123,31 +156,6 @@ project-02-inventory-system/
 
 ---
 
-## 🪜 Step-by-Step Learning Guide
-
-### ✅ Step 1 — Understand the Current Process
-Read `system-design/process_flow.md`. A System Analyst always maps the **As-Is** (current) process before designing the **To-Be** (future) system.
-
-### ✅ Step 2 — Read the Data Dictionary
-Open `system-design/data_dictionary.md`. This defines every field in the system — understanding your data structure is fundamental to system analysis.
-
-### ✅ Step 3 — Design the Database
-Run `sql/01_create_tables.sql`. This creates a **multi-table** database (more advanced than Project 1!) — you'll learn about table relationships.
-
-### ✅ Step 4 — Load Sample Data
-Run `sql/02_insert_data.sql` to populate all tables with realistic fashion inventory data.
-
-### ✅ Step 5 — Query Inventory Status
-Open `sql/03_inventory_queries.sql`. These queries simulate what a real inventory system would need to know.
-
-### ✅ Step 6 — Build the Stock Dashboard
-Follow `powerbi/INSTRUCTIONS.md` to build a dashboard that monitors live stock levels.
-
-### ✅ Step 7 — Document Lessons Learned
-Fill in `docs/lessons_learned.md`. In real workplaces, analysts always document what they built and why.
-
----
-
 ## 🛠️ Tools You'll Need
 
 | Tool | Download Link | Cost |
@@ -165,6 +173,3 @@ Compared to Project 1, this project introduces:
 - ✅ **Multi-table database design** (Products, Stock, Movements — linked by foreign keys)
 - ✅ **JOIN queries** (combining data from multiple tables)
 - ✅ **System requirements documentation**
-- ✅ **Process flow mapping** (As-Is vs To-Be)
-- ✅ **Data dictionary writing**
-- ✅ **Stock KPIs** in Power BI (reorder alerts, stock value)
