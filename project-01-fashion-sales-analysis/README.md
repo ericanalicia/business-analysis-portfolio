@@ -60,6 +60,7 @@ ORDER BY total_revenue DESC;
 | Brisbane | 1909.66 |
 
 **Insight:** Online sales outperform every physical store location, generating more revenue than even the top brick-and-mortar store (Perth). This suggests TrendHive's e-commerce channel is a strong growth area worth further marketing investment.
+
 ---
 
 ## 📂 Folder Structure
