@@ -44,6 +44,25 @@ ORDER BY total_revenue DESC;
 
 ---
 
+### 2. Which city/state has the highest sales?
+
+```sql
+SELECT store_location, ROUND(SUM(total_amount), 2) AS total_revenue
+FROM sales
+GROUP BY store_location
+ORDER BY total_revenue DESC;
+```
+
+| store_location | total_revenue |
+|---|---|
+| Online | 3389.52 |
+| Perth | 2869.66 |
+| Sydney | 2749.59 |
+| Melbourne | 2419.64 |
+| Brisbane | 1909.66 |
+
+**Insight:** Online sales outperform every physical store location, generating more revenue than even the top brick-and-mortar store (Perth). This suggests TrendHive's e-commerce channel is a strong growth area worth further marketing investment.
+
 ## 📂 Folder Structure
 
 ```
