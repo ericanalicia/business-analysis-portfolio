@@ -125,6 +125,31 @@ FROM sales;
 
 ---
 
+### 🎁 Bonus: Highest single sale per category (window functions)
+
+```sql
+WITH ranked_products AS (
+    SELECT product_name, category, total_amount,
+           ROW_NUMBER() OVER (PARTITION BY category ORDER BY total_amount DESC) AS rank_in_category
+    FROM sales
+)
+SELECT product_name, category, total_amount
+FROM ranked_products
+WHERE rank_in_category = 1;
+```
+
+| product_name | category | total_amount |
+|---|---|---|
+| Floral Wrap Dress | Dresses | 449.95 |
+| Block Heel Sandals | Footwear | 299.97 |
+| Leather Tote Bag | Accessories | 259.98 |
+| High-Waist Jeans | Bottoms | 239.97 |
+| White Linen Shirt | Tops | 199.96 |
+
+**Insight:** This uses a window function (`ROW_NUMBER()`) to find the single highest-value transaction within each category, without collapsing the underlying data — a technique that goes beyond basic `GROUP BY` aggregation and is commonly used in retail analytics for identifying top-performing items per segment.
+
+---
+
 ## 📂 Folder Structure
 
 ```
