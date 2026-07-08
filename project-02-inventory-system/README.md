@@ -18,6 +18,47 @@ You are a Junior System Analyst at *StyleStock*, a fictional Australian fashion 
 
 ---
 
+### 3. Alert when stock falls below the reorder level
+
+```sql
+WITH current_stock AS (
+    SELECT product_id,
+           SUM(
+               CASE 
+                   WHEN movement_type = 'received' THEN quantity
+                   ELSE -quantity
+               END
+           ) AS stock_level
+    FROM stock_movements
+    GROUP BY product_id
+)
+SELECT p.product_name, p.category, cs.stock_level, p.reorder_level,
+       CASE 
+           WHEN cs.stock_level < p.reorder_level THEN 'REORDER'
+           ELSE 'OK'
+       END AS status
+FROM products p
+JOIN current_stock cs ON p.product_id = cs.product_id
+ORDER BY cs.stock_level ASC;
+```
+
+| product_name | category | stock_level | reorder_level | status |
+|---|---|---|---|---|
+| White Linen Shirt | Tops | 0 | 20 | REORDER |
+| Leather Tote Bag | Accessories | 0 | 10 | REORDER |
+| Slip-On Sneakers | Footwear | 0 | 12 | REORDER |
+| Block Heel Sandals | Footwear | 11 | 12 | REORDER |
+| High-Waist Jeans | Bottoms | 24 | 15 | OK |
+| Wide Leg Trousers | Bottoms | 25 | 15 | OK |
+| Floral Wrap Dress | Dresses | 27 | 15 | OK |
+| Chunky Knit Cardigan | Tops | 28 | 15 | OK |
+| Striped T-Shirt | Tops | 34 | 20 | OK |
+| Gold Hoop Earrings | Accessories | 112 | 10 | OK |
+
+**Insight:** 4 of 10 products (40%) are currently at or near their reorder threshold, with 3 products completely out of stock (White Linen Shirt, Leather Tote Bag, Slip-On Sneakers). This query could be run daily to automatically flag restocking needs before shelves go empty, directly addressing the operations manager's core complaint about stockouts.
+
+---
+
 ## 📂 Folder Structure
 
 ```
