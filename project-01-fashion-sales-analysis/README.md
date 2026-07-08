@@ -19,6 +19,31 @@ You are a Junior Business Analyst hired by *TrendHive*, a fictional mid-size Aus
 
 ---
 
+---
+
+## 📈 Results & Key Findings
+
+### 1. Which product category generates the most revenue?
+
+```sql
+SELECT category, SUM(total_amount) AS total_revenue
+FROM sales
+GROUP BY category
+ORDER BY total_revenue DESC;
+```
+
+| category | total_revenue |
+|---|---|
+| Dresses | 3419.62 |
+| Tops | 2839.37 |
+| Footwear | 2619.71 |
+| Bottoms | 2269.70 |
+| Accessories | 2189.67 |
+
+**Insight:** Dresses is the top-performing category, generating roughly 20% more revenue than the next closest category (Tops). This suggests marketing spend and stock investment could lean more heavily toward Dresses.
+
+---
+
 ## 📂 Folder Structure
 
 ```
