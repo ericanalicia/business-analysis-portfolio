@@ -85,6 +85,29 @@ LIMIT 5;
 
 ---
 
+### 4. Which months had the highest and lowest sales?
+
+```sql
+SELECT strftime('%Y-%m', sale_date) AS month,
+       SUM(total_amount) AS total_revenue
+FROM sales
+GROUP BY strftime('%Y-%m', sale_date)
+ORDER BY month ASC;
+```
+
+| month | total_revenue |
+|---|---|
+| 2024-01 | 1519.78 |
+| 2024-02 | 1984.72 |
+| 2024-03 | 2129.66 |
+| 2024-04 | 2244.66 |
+| 2024-05 | 2799.62 |
+| 2024-06 | 2659.63 |
+
+**Insight:** Revenue grew steadily every month from January ($1,519.78) to a peak in May ($2,799.62) — a 5-month consistent upward trend — before dipping slightly in June. This pattern suggests strengthening demand through autumn, with June's slight pullback worth investigating (e.g. seasonal shift, reduced marketing spend, or stock availability issues).
+
+---
+
 ## 📂 Folder Structure
 
 ```
