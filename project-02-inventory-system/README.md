@@ -135,7 +135,8 @@ ORDER BY cs.stock_level ASC;
 project-02-inventory-system/
 │
 ├── data/
-│   └── inventory_data.csv         ← Sample dataset
+│   ├── products.csv               ← Product catalogue with reorder levels
+│   └── stock_movements.csv        ← Transaction log (received/sold events)
 │
 ├── sql/
 │   ├── 01_create_tables.sql       ← Step 3: Design the database schema
