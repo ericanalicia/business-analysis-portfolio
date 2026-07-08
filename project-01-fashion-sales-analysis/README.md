@@ -63,6 +63,28 @@ ORDER BY total_revenue DESC;
 
 ---
 
+### 3. What are the top 5 best-selling products?
+
+```sql
+SELECT product_name, SUM(quantity) AS total_quantity
+FROM sales
+GROUP BY product_name
+ORDER BY total_quantity DESC
+LIMIT 5;
+```
+
+| product_name | total_quantity |
+|---|---|
+| Floral Wrap Dress | 38 |
+| Striped T-Shirt | 24 |
+| White Linen Shirt | 22 |
+| Gold Hoop Earrings | 20 |
+| High-Waist Jeans | 17 |
+
+**Insight:** The Floral Wrap Dress is the clear standout, selling 38 units — over 50% more than the next best-seller (Striped T-Shirt at 24). This aligns with Dresses being the top revenue-generating category overall, suggesting this single product is a major driver of that category's performance.
+
+---
+
 ## 📂 Folder Structure
 
 ```
