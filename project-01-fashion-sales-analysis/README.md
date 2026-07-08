@@ -108,6 +108,21 @@ ORDER BY month ASC;
 
 ---
 
+### 5. What is the average order value per customer?
+
+```sql
+SELECT ROUND(AVG(total_amount), 2) AS avg_order_value
+FROM sales;
+```
+
+| avg_order_value |
+|---|
+| 148.20 |
+
+**Insight:** The average order value across all transactions is $148.20, giving a baseline benchmark for evaluating future campaigns — e.g. whether a promotion increases basket size above this figure.
+
+---
+
 ## 📂 Folder Structure
 
 ```
