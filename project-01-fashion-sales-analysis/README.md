@@ -1,5 +1,7 @@
 # 📊 Project 1 — Fashion Retail Sales Analysis
 
+✅ Completed — see Results & Key Findings below
+
 ## Overview
 
 **Scenario:**
