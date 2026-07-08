@@ -1,6 +1,6 @@
-# 📊 Project 1 — Fashion Retail Sales Analysis
+> ✅ **Completed** — Business questions answered with real SQL queries and results below. See [Results & Key Findings](#-results--key-findings) for a full walkthrough.
 
-✅ Completed — see Results & Key Findings below
+# 📊 Project 1 — Fashion Retail Sales Analysis
 
 ## Overview
 
