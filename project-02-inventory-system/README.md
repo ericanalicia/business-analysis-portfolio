@@ -18,6 +18,43 @@ You are a Junior System Analyst at *StyleStock*, a fictional Australian fashion 
 
 ---
 
+### 1. Track how much stock is available for each product
+
+```sql
+WITH current_stock AS (
+    SELECT product_id,
+           SUM(
+               CASE 
+                   WHEN movement_type = 'received' THEN quantity
+                   ELSE -quantity
+               END
+           ) AS stock_level
+    FROM stock_movements
+    GROUP BY product_id
+)
+SELECT p.product_name, p.category, cs.stock_level
+FROM products p
+JOIN current_stock cs ON p.product_id = cs.product_id
+ORDER BY cs.stock_level DESC;
+```
+
+| product_name | category | stock_level |
+|---|---|---|
+| Gold Hoop Earrings | Accessories | 112 |
+| Striped T-Shirt | Tops | 34 |
+| Chunky Knit Cardigan | Tops | 28 |
+| Floral Wrap Dress | Dresses | 27 |
+| Wide Leg Trousers | Bottoms | 25 |
+| High-Waist Jeans | Bottoms | 24 |
+| Block Heel Sandals | Footwear | 11 |
+| White Linen Shirt | Tops | 0 |
+| Leather Tote Bag | Accessories | 0 |
+| Slip-On Sneakers | Footwear | 0 |
+
+**Insight:** Stock levels vary widely across the catalogue, from 112 units (Gold Hoop Earrings) down to 0 units for three products. This live stock view is the foundation the reorder alert system (see Goal 3) builds on top of.
+
+---
+
 ### 3. Alert when stock falls below the reorder level
 
 ```sql
