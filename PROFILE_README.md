@@ -12,7 +12,7 @@ Operations analyst with hands-on experience in inventory management, sell-throug
 
 ## Portfolio
 
-### [Rebecca Vallance — AW24 Operations Analysis](https://github.com/ericanalicia/business-analysis-portfolio/tree/main/rv-ops-analysis)
+### [Rebecca Vallance — AW24 Operations Analysis](https://github.com/EricaTjahjadi/business-analysis-portfolio/tree/main/rv-ops-analysis)
 
 End-to-end operations analysis of a mock AW24 season across Sydney, Melbourne, and Online channels.
 
