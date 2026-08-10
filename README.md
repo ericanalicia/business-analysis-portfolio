@@ -1,68 +1,36 @@
-# 👗 Business Analysis Portfolio — Fashion Industry
+# Erica
 
-> **Hi, I'm Erica!** I'm a beginner Business & System Analyst based in **Australia**, passionate about turning raw data into actionable insights. This portfolio showcases my learning journey across **Business Analysis**, **System Analysis**, **SQL**, and **Power BI** — with a focus on the **fashion retail industry**.
-
----
-
-## 🎯 About Me
-
-I am actively building my skills to pursue roles such as:
-- Business Analyst
-- System Analyst
-- Data Analyst
-- Reporting Analyst
-
-I am targeting the **Australian job market**, particularly within the **fashion and retail industry** — one of Australia's most data-driven and fast-moving sectors.
+**Operations Analyst** | SQL & Power BI | Sydney, Australia
 
 ---
 
-## 🛠️ Skills I'm Learning
+## About Me
 
-| Skill | Area | Status |
-|---|---|---|
-| SQL (SQLite / PostgreSQL) | Data querying & analysis | 🟡 Beginner |
-| Power BI | Data visualisation & dashboards | 🟡 Beginner |
-| Business Analysis | Requirements gathering, process mapping | 🟡 Beginner |
-| System Analysis | Data flow, use cases, system design | 🟡 Beginner |
+Operations analyst with hands-on experience in inventory management, sell-through tracking, and stock planning in Australian fashion retail. Comfortable translating business problems into structured SQL queries and operational dashboards. Building a technical portfolio to complement domain expertise from roles at Rebecca Vallance and Coco Republic.
 
 ---
 
-## 📁 Projects
+## Portfolio Projects
 
-### 📊 Project 1 — Fashion Retail Sales Analysis
-> **Folder:** `project-01-fashion-sales-analysis/`
+### [Rebecca Vallance — AW24 Operations Analysis](./rv-ops-analysis)
 
-A business analysis and SQL project that analyses sales data for a fictional Australian fashion retailer. Includes SQL queries, business insights, and a Power BI dashboard.
+End-to-end operations analysis of a mock AW24 season across Sydney, Melbourne, and Online channels. Modelled on the product mix, pricing structure, and reporting priorities of a premium Australian womenswear label.
 
-**Topics covered:** SQL · Power BI · Business Analysis · Data Cleaning
+**Business questions answered:**
+- Which SKUs have the highest sell-through rate at week 11 of the season?
+- Which store generates the highest gross margin?
+- Which categories are driving revenue vs. unit volume?
+- Which products need replenishment based on weeks of cover remaining?
+- How does Online channel mix compare to physical stores?
 
----
-
-### 🏭 Project 2 — Fashion Inventory Management System
-> **Folder:** `project-02-inventory-system/`
-
-A system analysis project that models an inventory management system for a fashion retailer. Includes system requirements, data flow diagrams, SQL database design, and a Power BI stock dashboard.
-
-**Topics covered:** System Analysis · SQL · Power BI · Business Requirements
+**Technical highlights:** Multi-table SQL joins | Sell-through rate calculation | Gross margin by channel | Weeks of cover (WoC) | Running revenue totals using window functions | Power BI dashboard with 5 operational visuals
 
 ---
 
-## 🇦🇺 Why Fashion & Australia?
+## Tech Stack
 
-The Australian fashion retail market is worth over **$27 billion AUD** and is rapidly adopting data-driven decision making. Brands like **Country Road, The Iconic, Cotton On, Myer, and David Jones** rely on analysts to:
-- Track sales performance across states
-- Manage supplier and inventory data
-- Understand customer buying trends
-- Optimise markdown and pricing strategies
-
-I want to be part of that transformation — starting here. 🚀
+**Database:** SQLite | **Query Patterns:** Aggregations, JOINs, window functions, subqueries | **Visualisation:** Power BI | **Domain:** Sell-through, WSSI, OTB, weeks of cover, gross margin, stock planning | **Tools:** DB Browser for SQLite, Excel, Git
 
 ---
 
-## 📬 Contact
-
-- GitHub: [github.com/ericanalicia](https://github.com/ericanalicia)
-
----
-
-*This portfolio is a work in progress and is updated regularly as I learn.*
+**Sydney, Australia**

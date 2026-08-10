@@ -1,0 +1,16 @@
+sku_id,product_name,category,colour,season,rrp_aud,cost_aud,initial_stock
+RV-RTW-001,Arden Mini Dress,RTW,Ivory,AW24,650.00,208.00,24
+RV-RTW-002,Arden Mini Dress,RTW,Black,AW24,650.00,208.00,30
+RV-RTW-003,Greta Blazer,RTW,Camel,AW24,750.00,225.00,18
+RV-RTW-004,Greta Blazer,RTW,Black,AW24,750.00,225.00,24
+RV-RTW-005,Lena Midi Dress,RTW,Blush,AW24,890.00,249.00,20
+RV-RTW-006,Lena Midi Dress,RTW,Navy,AW24,890.00,249.00,16
+RV-RTW-007,Scarlett Trouser,RTW,Ivory,AW24,450.00,144.00,30
+RV-RTW-008,Capri Knit Top,RTW,White,AW24,380.00,122.00,36
+RV-SWM-001,Monaco One-Piece,Swim,Ivory,AW24,320.00,112.00,20
+RV-SWM-002,Monaco One-Piece,Swim,Black,AW24,320.00,112.00,28
+RV-SWM-003,Amalfi Bikini Set,Swim,Sage,AW24,280.00,98.00,24
+RV-ACC-001,Camille Clutch,Accessories,Gold,AW24,490.00,118.00,12
+RV-ACC-002,Camille Clutch,Accessories,Silver,AW24,490.00,118.00,10
+RV-ACC-003,Monogram Belt,Accessories,Black,AW24,220.00,53.00,20
+RV-EVE-001,Valentina Gown,Evening,Blush,AW24,1850.00,519.00,8

@@ -1,0 +1,117 @@
+transaction_id,date,store,sku_id,product_name,category,quantity_sold,sell_price_aud,cost_price_aud
+1,2024-01-16,Sydney,RV-RTW-001,Arden Mini Dress,RTW,2,650.00,208.00
+2,2024-01-16,Sydney,RV-EVE-001,Valentina Gown,Evening,1,1850.00,519.00
+3,2024-01-18,Sydney,RV-RTW-005,Lena Midi Dress,RTW,1,890.00,249.00
+4,2024-01-19,Sydney,RV-ACC-001,Camille Clutch,Accessories,2,490.00,118.00
+5,2024-01-20,Sydney,RV-RTW-003,Greta Blazer,RTW,1,750.00,225.00
+6,2024-01-22,Sydney,RV-RTW-002,Arden Mini Dress,RTW,2,650.00,208.00
+7,2024-01-23,Sydney,RV-RTW-007,Scarlett Trouser,RTW,1,450.00,144.00
+8,2024-01-25,Sydney,RV-EVE-001,Valentina Gown,Evening,1,1850.00,519.00
+9,2024-01-26,Sydney,RV-RTW-006,Lena Midi Dress,RTW,1,890.00,249.00
+10,2024-01-27,Sydney,RV-ACC-002,Camille Clutch,Accessories,1,490.00,118.00
+11,2024-01-29,Sydney,RV-RTW-004,Greta Blazer,RTW,2,750.00,225.00
+12,2024-01-30,Sydney,RV-RTW-008,Capri Knit Top,RTW,2,380.00,122.00
+13,2024-02-01,Sydney,RV-RTW-001,Arden Mini Dress,RTW,1,650.00,208.00
+14,2024-02-02,Sydney,RV-EVE-001,Valentina Gown,Evening,1,1850.00,519.00
+15,2024-02-05,Sydney,RV-RTW-005,Lena Midi Dress,RTW,2,890.00,249.00
+16,2024-02-06,Sydney,RV-ACC-003,Monogram Belt,Accessories,2,220.00,53.00
+17,2024-02-08,Sydney,RV-RTW-003,Greta Blazer,RTW,1,750.00,225.00
+18,2024-02-09,Sydney,RV-RTW-002,Arden Mini Dress,RTW,1,650.00,208.00
+19,2024-02-12,Sydney,RV-RTW-007,Scarlett Trouser,RTW,2,450.00,144.00
+20,2024-02-13,Sydney,RV-RTW-006,Lena Midi Dress,RTW,1,890.00,249.00
+21,2024-02-15,Sydney,RV-ACC-001,Camille Clutch,Accessories,1,490.00,118.00
+22,2024-02-16,Sydney,RV-EVE-001,Valentina Gown,Evening,1,1850.00,519.00
+23,2024-02-19,Sydney,RV-RTW-001,Arden Mini Dress,RTW,2,650.00,208.00
+24,2024-02-20,Sydney,RV-RTW-008,Capri Knit Top,RTW,3,380.00,122.00
+25,2024-02-22,Sydney,RV-RTW-004,Greta Blazer,RTW,1,750.00,225.00
+26,2024-02-26,Sydney,RV-RTW-005,Lena Midi Dress,RTW,1,890.00,249.00
+27,2024-02-27,Sydney,RV-SWM-002,Monaco One-Piece,Swim,2,320.00,112.00
+28,2024-02-29,Sydney,RV-RTW-002,Arden Mini Dress,RTW,2,650.00,208.00
+29,2024-03-04,Sydney,RV-RTW-003,Greta Blazer,RTW,1,750.00,225.00
+30,2024-03-05,Sydney,RV-RTW-007,Scarlett Trouser,RTW,2,450.00,144.00
+31,2024-03-07,Sydney,RV-ACC-002,Camille Clutch,Accessories,1,490.00,118.00
+32,2024-03-11,Sydney,RV-RTW-001,Arden Mini Dress,RTW,1,650.00,208.00
+33,2024-03-12,Sydney,RV-RTW-006,Lena Midi Dress,RTW,2,890.00,249.00
+34,2024-03-14,Sydney,RV-ACC-001,Camille Clutch,Accessories,2,490.00,118.00
+35,2024-03-18,Sydney,RV-RTW-008,Capri Knit Top,RTW,2,380.00,122.00
+36,2024-03-19,Sydney,RV-RTW-004,Greta Blazer,RTW,1,750.00,225.00
+37,2024-03-21,Sydney,RV-EVE-001,Valentina Gown,Evening,1,1850.00,519.00
+38,2024-03-25,Sydney,RV-RTW-002,Arden Mini Dress,RTW,2,650.00,208.00
+39,2024-03-26,Sydney,RV-RTW-005,Lena Midi Dress,RTW,1,890.00,249.00
+40,2024-03-28,Sydney,RV-RTW-007,Scarlett Trouser,RTW,1,450.00,144.00
+41,2024-01-15,Melbourne,RV-RTW-002,Arden Mini Dress,RTW,2,650.00,208.00
+42,2024-01-17,Melbourne,RV-SWM-001,Monaco One-Piece,Swim,2,320.00,112.00
+43,2024-01-19,Melbourne,RV-RTW-007,Scarlett Trouser,RTW,1,450.00,144.00
+44,2024-01-20,Melbourne,RV-RTW-008,Capri Knit Top,RTW,3,380.00,122.00
+45,2024-01-22,Melbourne,RV-RTW-003,Greta Blazer,RTW,1,750.00,225.00
+46,2024-01-24,Melbourne,RV-SWM-002,Monaco One-Piece,Swim,2,320.00,112.00
+47,2024-01-25,Melbourne,RV-ACC-003,Monogram Belt,Accessories,2,220.00,53.00
+48,2024-01-27,Melbourne,RV-RTW-001,Arden Mini Dress,RTW,1,650.00,208.00
+49,2024-01-29,Melbourne,RV-SWM-003,Amalfi Bikini Set,Swim,2,280.00,98.00
+50,2024-01-30,Melbourne,RV-RTW-004,Greta Blazer,RTW,1,750.00,225.00
+51,2024-02-01,Melbourne,RV-RTW-006,Lena Midi Dress,RTW,1,890.00,249.00
+52,2024-02-02,Melbourne,RV-SWM-001,Monaco One-Piece,Swim,1,320.00,112.00
+53,2024-02-05,Melbourne,RV-RTW-002,Arden Mini Dress,RTW,2,650.00,208.00
+54,2024-02-07,Melbourne,RV-ACC-001,Camille Clutch,Accessories,1,490.00,118.00
+55,2024-02-08,Melbourne,RV-RTW-008,Capri Knit Top,RTW,2,380.00,122.00
+56,2024-02-12,Melbourne,RV-SWM-003,Amalfi Bikini Set,Swim,2,280.00,98.00
+57,2024-02-13,Melbourne,RV-RTW-007,Scarlett Trouser,RTW,2,450.00,144.00
+58,2024-02-15,Melbourne,RV-RTW-005,Lena Midi Dress,RTW,1,890.00,249.00
+59,2024-02-19,Melbourne,RV-RTW-003,Greta Blazer,RTW,1,750.00,225.00
+60,2024-02-20,Melbourne,RV-ACC-002,Camille Clutch,Accessories,1,490.00,118.00
+61,2024-02-22,Melbourne,RV-RTW-001,Arden Mini Dress,RTW,2,650.00,208.00
+62,2024-02-26,Melbourne,RV-RTW-004,Greta Blazer,RTW,1,750.00,225.00
+63,2024-02-27,Melbourne,RV-RTW-006,Lena Midi Dress,RTW,1,890.00,249.00
+64,2024-02-29,Melbourne,RV-RTW-008,Capri Knit Top,RTW,2,380.00,122.00
+65,2024-03-04,Melbourne,RV-SWM-002,Monaco One-Piece,Swim,1,320.00,112.00
+66,2024-03-05,Melbourne,RV-RTW-002,Arden Mini Dress,RTW,1,650.00,208.00
+67,2024-03-07,Melbourne,RV-RTW-007,Scarlett Trouser,RTW,2,450.00,144.00
+68,2024-03-11,Melbourne,RV-RTW-005,Lena Midi Dress,RTW,1,890.00,249.00
+69,2024-03-12,Melbourne,RV-ACC-003,Monogram Belt,Accessories,2,220.00,53.00
+70,2024-03-14,Melbourne,RV-RTW-003,Greta Blazer,RTW,1,750.00,225.00
+71,2024-03-18,Melbourne,RV-RTW-001,Arden Mini Dress,RTW,1,650.00,208.00
+72,2024-03-19,Melbourne,RV-RTW-006,Lena Midi Dress,RTW,1,890.00,249.00
+73,2024-03-21,Melbourne,RV-ACC-001,Camille Clutch,Accessories,1,490.00,118.00
+74,2024-03-25,Melbourne,RV-RTW-008,Capri Knit Top,RTW,2,380.00,122.00
+75,2024-03-26,Melbourne,RV-RTW-004,Greta Blazer,RTW,1,750.00,225.00
+76,2024-03-28,Melbourne,RV-SWM-001,Monaco One-Piece,Swim,1,320.00,112.00
+77,2024-01-15,Online,RV-RTW-002,Arden Mini Dress,RTW,3,650.00,208.00
+78,2024-01-16,Online,RV-RTW-008,Capri Knit Top,RTW,4,380.00,122.00
+79,2024-01-18,Online,RV-SWM-002,Monaco One-Piece,Swim,3,320.00,112.00
+80,2024-01-19,Online,RV-RTW-001,Arden Mini Dress,RTW,2,650.00,208.00
+81,2024-01-20,Online,RV-ACC-003,Monogram Belt,Accessories,3,220.00,53.00
+82,2024-01-22,Online,RV-RTW-007,Scarlett Trouser,RTW,2,450.00,144.00
+83,2024-01-24,Online,RV-SWM-001,Monaco One-Piece,Swim,2,320.00,112.00
+84,2024-01-25,Online,RV-RTW-003,Greta Blazer,RTW,1,750.00,225.00
+85,2024-01-27,Online,RV-RTW-005,Lena Midi Dress,RTW,2,890.00,249.00
+86,2024-01-29,Online,RV-RTW-002,Arden Mini Dress,RTW,3,650.00,208.00
+87,2024-01-30,Online,RV-SWM-003,Amalfi Bikini Set,Swim,3,280.00,98.00
+88,2024-02-01,Online,RV-RTW-008,Capri Knit Top,RTW,4,380.00,122.00
+89,2024-02-02,Online,RV-RTW-006,Lena Midi Dress,RTW,2,890.00,249.00
+90,2024-02-05,Online,RV-ACC-003,Monogram Belt,Accessories,3,220.00,53.00
+91,2024-02-07,Online,RV-RTW-001,Arden Mini Dress,RTW,2,650.00,208.00
+92,2024-02-08,Online,RV-SWM-002,Monaco One-Piece,Swim,2,320.00,112.00
+93,2024-02-12,Online,RV-RTW-004,Greta Blazer,RTW,1,750.00,225.00
+94,2024-02-13,Online,RV-RTW-007,Scarlett Trouser,RTW,3,450.00,144.00
+95,2024-02-15,Online,RV-RTW-002,Arden Mini Dress,RTW,2,650.00,208.00
+96,2024-02-16,Online,RV-SWM-001,Monaco One-Piece,Swim,1,320.00,112.00
+97,2024-02-19,Online,RV-RTW-008,Capri Knit Top,RTW,3,380.00,122.00
+98,2024-02-20,Online,RV-RTW-005,Lena Midi Dress,RTW,1,890.00,249.00
+99,2024-02-22,Online,RV-ACC-001,Camille Clutch,Accessories,2,490.00,118.00
+100,2024-02-26,Online,RV-RTW-003,Greta Blazer,RTW,1,750.00,225.00
+101,2024-02-27,Online,RV-RTW-001,Arden Mini Dress,RTW,3,650.00,208.00
+102,2024-02-29,Online,RV-SWM-003,Amalfi Bikini Set,Swim,2,280.00,98.00
+103,2024-03-04,Online,RV-RTW-002,Arden Mini Dress,RTW,2,650.00,208.00
+104,2024-03-05,Online,RV-RTW-008,Capri Knit Top,RTW,4,380.00,122.00
+105,2024-03-07,Online,RV-RTW-007,Scarlett Trouser,RTW,2,450.00,144.00
+106,2024-03-11,Online,RV-RTW-006,Lena Midi Dress,RTW,2,890.00,249.00
+107,2024-03-12,Online,RV-SWM-002,Monaco One-Piece,Swim,2,320.00,112.00
+108,2024-03-14,Online,RV-RTW-001,Arden Mini Dress,RTW,2,650.00,208.00
+109,2024-03-18,Online,RV-RTW-004,Greta Blazer,RTW,1,750.00,225.00
+110,2024-03-19,Online,RV-RTW-005,Lena Midi Dress,RTW,1,890.00,249.00
+111,2024-03-21,Online,RV-ACC-002,Camille Clutch,Accessories,2,490.00,118.00
+112,2024-03-25,Online,RV-RTW-008,Capri Knit Top,RTW,3,380.00,122.00
+113,2024-03-26,Online,RV-RTW-002,Arden Mini Dress,RTW,2,650.00,208.00
+114,2024-03-28,Online,RV-SWM-001,Monaco One-Piece,Swim,2,320.00,112.00
+115,2024-03-29,Online,RV-RTW-003,Greta Blazer,RTW,1,750.00,225.00
+116,2024-03-30,Online,RV-RTW-007,Scarlett Trouser,RTW,2,450.00,144.00
