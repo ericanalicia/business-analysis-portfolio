@@ -6,6 +6,12 @@
 
 ---
 
+## Dashboard
+
+![RV AW24 Operations Dashboard](dashboard_screenshot.png.png)
+
+---
+
 ## Key Findings
 
 ### Revenue by Category
